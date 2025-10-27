@@ -1,0 +1,120 @@
+Chapter 1
+Self-Review Exercises 1.1
+ Fill in the blanks in each of the following statements:
+ a) Computers process data under the control of sets of instructions called PROGRAMS. 
+b) The key logical units of the computer are the INPUT, OUTPUT, MAIN STORAGE, SECONDARY STORAGE, ARITHEMATIC AND LOGIC UNIT , and CENTRAL PROCESSING UNIT. 
+c) The three types of languages they are machine language , assembly language and “high level” programming language. 
+d) The programs that translate high-level language programs into machine language are called compilers. 
+e) “Andriod Operating System” is an operating system for mobile devices based on the Linux kernel and Java. 
+f)Release  software is generally feature complete, (supposedly) bug free and ready for use by the community. 
+g) The Wii Remote, as well as many smartphones, use a(n) “accelerometer” which allows the device to respond to motion. 
+
+1.2 Fill in the blanks in each of the following sentences about the Java environment:
+ a) The “java” command from the JDK executes a Java application. 
+b) The “javac” command from the JDK compiles a Java program. 
+c) A Java source code file must end with the “.java” file extension. 
+d) When a Java program is compiled, the file produced by the compiler ends with the “.class” file extension. 
+e) The file produced by the Java compiler contains “bytecode” that are executed by the Java Virtual Machine. 
+
+1.3 Fill in the blanks in each of the following statements 
+
+a) Objects enable the design practice of “encapsulation” —although they may know how to communicate with one another across well-defined interfaces, they normally are not allowed to know how other objects are implemented. 
+b) Java programmers concentrate on creating “objects”, which contain fields and the set of methods that manipulate those fields and provide services to clients. 
+c) The process of analyzing and designing a system from an object-oriented point of view is called ‘Object-Oriented Analysis and Design’.
+d) A new class of objects can be created conveniently by ‘inheritance’ —the new class (called the subclass) starts with the characteristics of an existing class (called the superclass), possibly customizing them and adding unique characteristics of its own. 
+e) ‘Unified Modeling Language is a graphical language that allows people who design software systems to use an industry-standard notation to represent them. 
+f) The size, shape, color and weight of an object are considered “fields or attributes” of the object’s class.
+
+Exercises 1.4 Fill in the blanks in each of the following statements: 
+a) The logical unit that receives information from outside the computer for use by the computer is the “input”. 
+b) The process of instructing the computer to solve a problem is called “programming”. 
+c) “Assembly language” is a type of computer language that uses English-like abbreviations for machine-language instructions. 
+d) “Output” is a logical unit that sends information which has already been processed by the computer to various devices so that it may be used outside the computer. 
+e) “Arithmetic” and “processing unit” are logical units of the computer that retain information. 
+f) “Arithmetic unit” is a logical unit of the computer that performs calculations. g) “Logic unit” is a logical unit of the computer that makes logical decisions. 
+h) “High Level Programming Language” languages are most convenient to the programmer for writing programs quickly and easily. 
+i) The only language a computer can directly understand is that computer’s “machine language”. 
+j) “Processing Unit” is a logical unit of the computer that coordinates the activities of all the other logical units. 
+
+1.5 Fill in the blanks in each of the following statements: 
+a) The Java Enterprise Edition programming language is now used to develop large-scale enterprise applications, to enhance the functionality of web servers, to provide applications for consumer devices and for many other purposes. b) “C” initially became widely known as the development language of the UNIX operating system. 
+c) The “Transmission Control Protocol” ensures that messages, consisting of sequentially numbered pieces called bytes, were properly routed from sender to receiver, arrived intact and were assembled in the correct order. 
+d) The “C++” programming language was developed by Bjarne Stroustrup in the early 1980s at Bell Laboratories. 
+1.6 Fill in the blanks in each of the following statements: 
+a) Java programs normally go through five phases— “edit, compile, load, verify, and execute”
+b) A(n) ’ Integrated Development Environment’ provides many tools that support the software development process, such as editors for writing and editing programs, debuggers for locating logic errors in programs, and many other features. 
+c) The command java invokes the “Java Virtual Machine”, which executes Java programs. 
+d) A(n) “virtual machine” is a software application that simulates a computer, but hides the underlying operating system and hardware from the programs that interact with it.
+ e) The ‘class loader’ takes the .class files containing the program’s bytecodes and transfers them to primary memory. The examines bytecodes to ensure that they’re valid.
+f) The “bytecode verifier” examines bytecodes to ensure that they’re valid.
+
+1.7 Explain the two compilation phases of Java programs. 
+Java programs go through two main compilation phases: the compilation phase and the execution phase. In the compilation phase, the Java compiler (javac) translates the source code written in a .java file into an intermediate form called bytecode, which is stored in a .class file. This bytecode is platform-independent, meaning it can run on any computer that has a Java Virtual Machine (JVM), making Java a portable language.
+In the execution phase, the JVM takes the .class file and loads it into memory using the class loader. The bytecode verifier then checks the bytecode to ensure it is safe and valid before execution. Finally, the JVM interpreter or Just-In-Time (JIT) compiler converts the bytecode into machine code that the processor can understand, allowing the program to run and produce the desired output.
+
+1.8 One of the world’s most common objects is a wrist watch. Discuss how each of the following terms and concepts applies to the notion of a watch: object, attributes, behaviors, class, inheritance (consider, for example, an alarm clock), modeling, messages, encapsulation, interface and information hiding.
+A wristwatch is an object with attributes such as color, brand, and current time, and behaviors like displaying or setting the time. The class defines the blueprint for creating watch objects, while inheritance allows new types, like an alarm clock or smartwatch, to build on it. Modeling represents the watch’s real-world features in software, and messages are the method calls (e.g., setTime()) used to communicate with it. Encapsulation protects the watch’s internal data, and the interface defines how users interact with it. Information hiding ensures the internal workings remain invisible to the user, who only sees the watch’s functions.
+Making a Difference
+1.9 (Test-Drive: Carbon Footprint Calculator) 
+Some scientists believe that carbon emissions, especially from the burning of fossil fuels, contribute significantly to global warming and that this can be combatted if individuals take steps to limit their use of carbon-based fuels. Organizations and individuals are increasingly concerned about their “carbon footprints.” Websites such as TerraPass http://www.terrapass.com/carbon-footprint-calculator/ and Carbon Footprint http://www.carbonfootprint.com/calculator.aspx provide carbon-footprint calculators. Test-drive these calculators to determine your carbon footprint. Exercises in later chapters will ask you to program your own carbon-footprint calculator. To prepare for this, use the web to research the formulas for calculating carbon footprints. 
+The basic formula behind these calculators is:
+Carbon Footprint = Activity Data × Emission Factor
+Here, Activity Data represents measurable actions — such as liters of fuel used or kilowatt-hours of electricity consumed — while the Emission Factor indicates the amount of CO₂ emitted per unit of that activity.
+
+
+1.10 (Test-Drive: Body Mass Index Calculator) 
+Obesity causes significant increases in illnesses such as diabetes and heart disease. To determine whether a person is overweight or obese, you can use a measure called the body mass index (BMI). The United States Department of Health and Human Services provides a BMI calculator at http://www.nhlbi.nih.gov/guidelines/obesity/BMI/ bmicalc.htm. Use it to calculate your own BMI. A forthcoming exercise will ask you to program your own BMI calculator. To prepare for this, use the web to research the formulas for calculating BMI. 
+Obesity significantly increases the risk of diseases such as diabetes and heart disease. The Body Mass Index (BMI) is a common measure used to determine whether a person is underweight, normal weight, overweight, or obese. The U.S. Department of Health and Human Services provides an online BMI calculator that allows users to input their height and weight to compute their BMI.
+The formula for calculating BMI is:
+BMI = weight (in kilograms) ÷ [height (in meters)]²
+Based on this result, a BMI below 18.5 indicates underweight, between 18.5 and 24.9 is normal, 25–29.9 is overweight, and 30 or above indicates obesity. 
+BMI Calculation
+Weight = 72 kg
+Height = 1.8 m
+Formula:
+BMI = weight ÷ (height × height)
+Substitution:
+BMI = 72 ÷ (1.8 × 1.8)
+BMI = 72 ÷ 3.24
+BMI = 22.2
+Result:
+My BMI is 22.2, which falls within the normal weight range (18.5 – 24.9).
+
+
+
+
+1.11 (Attributes of Hybrid Vehicles) 
+Hybrid vehicles are becoming increasingly popular, because they often get much better mileage than purely gasoline-powered vehicles. Browse the web and study the features of four or five of today’s popular hybrid cars, then list as many of their hybrid-related attributes as you can. Some common attributes include city-miles-per-gallon and highway-miles-per-gallon. Also list the attributes of the batteries (type, weight, etc.). 
+
+Hybrid-Vehicle Attributes
+•	City miles per gallon (MPG) or city fuel economy
+•	Highway miles per gallon or highway fuel economy
+•	Combined fuel economy (city + highway)
+•	Electric-only driving capability or electric assist mode
+•	Start-stop system (engine shuts off when idling)
+•	Regenerative braking system (recovers energy during braking) Spinny+1
+•	Hybrid powertrain type (e.g., full hybrid, mild hybrid, plug-in hybrid) Toliver Buick GMC+1
+•	Battery location (under rear seats, in trunk area, etc.)
+•	Additional torque or power from electric motor assist
+•	Ability to run on electric motor alone for short periods
+•	Reduced engine size or smaller internal combustion engine thanks to hybrid assist
+•	Reduced tailpipe emissions compared to conventional vehicles matfoundrygroup.com+1
+•	Fuel savings / lower operating cost Earl Stewart Toyota
+•	Transmission type adapted for hybrid (e.g., CVT, dual-clutch paired with electric motor)
+
+
+1.12 (Gender Neutrality) 
+Many people want to eliminate sexism in all forms of communication. You’ve been asked to create a program that can process a paragraph of text and replace gender-specific words with gender-neutral ones. Assuming that you’ve been given a list of gender-specific words and their gender-neutral replacements (e.g., replace both “wife” and “husband” with “spouse,” “man” and “woman” with “person,” “daughter” and “son” with “child”), explain the procedure you’d use to read through a paragraph of text and manually perform these replacements. How might your procedure generate a strange term like “woperchild?” You’ll soon learn that a more formal term for “procedure” is “algorithm,” and that an algorithm specifies the steps to be performed and the order in which to perform them. We’ll show how to develop algorithms then convert them to Java programs which can be run on computers.
+
+To create a program that replaces gender-specific words with gender-neutral ones, I would first prepare a list of gendered words and their replacements — for example:
+•	“man” or “woman” → “person”
+•	“husband” or “wife” → “spouse”
+•	“son” or “daughter” → “child”
+The procedure (or algorithm) would follow these steps:
+1.	Read the paragraph of text word by word.
+2.	Compare each word to the list of gender-specific terms.
+3.	If a match is found, replace that word with its gender-neutral equivalent.
+4.	Keep unchanged words as they are.
+5.	Reconstruct the paragraph with all replacements applied.
+This process ensures all gendered words are replaced consistently.
+

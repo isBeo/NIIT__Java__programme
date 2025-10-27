@@ -1,0 +1,45 @@
+JAVA KEYWORDS
+1. Access Control
+•	public, private, protected – control how accessible a class, method, or variable is from other parts of a program.
+2. Class, Object, and Interface
+•	class – defines a blueprint for objects.
+•	interface – defines abstract methods that classes can implement.
+•	extends – used when a class inherits from another class.
+•	implements – used when a class implements an interface.
+•	new – creates a new object.
+•	this – refers to the current object.
+•	super – refers to the parent (superclass) of the current object.
+3. Data Types
+•	byte, short, int, long, float, double, boolean, char – represent different kinds of data values (numbers, characters, true/false, etc.).
+4. Flow Control
+•	if, else – make decisions based on conditions.
+•	switch, case, default – handle multiple possible conditions.
+•	while, do, for – repeat code (loops).
+•	break, continue – control how loops run.
+•	return – send a value back from a method.
+5. Exception Handling
+•	try, catch, finally – handle runtime errors safely.
+•	throw, throws – send or declare exceptions in methods.
+6. Modifiers
+•	static – makes a member belong to the class instead of an object.
+•	final – prevents modification (e.g., constant variables, unchangeable methods).
+•	abstract – defines a method or class that must be completed by subclasses.
+•	synchronized – controls access to blocks of code by multiple threads.
+•	volatile, transient – affect how variables are stored or serialized.
+•	native – indicates a method is written in another language (like C).
+•	strictfp – ensures consistent floating-point calculations across platforms.
+7. Package/Import
+•	package – groups related classes.
+•	import – allows use of classes from other packages.
+8. Other Keywords
+•	void – specifies that a method doesn’t return a value.
+•	enum – defines a fixed set of constants.
+•	assert – tests assumptions during debugging.
+•	instanceof – checks if an object belongs to a particular class.
+•	const, goto – reserved but not used in Java.
+9. Newer Additions (Java 10+)
+•	var – declares a variable with inferred type.
+•	record – defines a compact class for immutable data.
+•	sealed, permits, non-sealed – control which classes can extend or implement another class.
+•	yield – returns a value from a switch expression.
+
