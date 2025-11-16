@@ -26,6 +26,8 @@ public class Sentinel{
 			
 		}//end of the while loop
 		
+		
+		
 		System.out.printf("The total %d number(s) is %d%n",counter,sum);
 	}//end of the main method
 }//end of the sentinel class
